@@ -43,6 +43,7 @@ export default function Lab2TimerControl() {
     3. Start 버튼 클릭 시 setRunning(true) 진행된다.
     4. timer 생성 & 실행
     5. return () => ... 를 진행할 경우 Cleanup 함수 반환 = React가 반환된 Cleanup 함수를 보관 = 아직 실행 x
+      cleanup은 이전의 상태? 등을 기억한 다음에 다시 실행될 떄 이전의 상황을 정리하는 역할 수행
     6. 이후 reset이나 stop을 누를 경우 running이 false 로 변함
     7. 그렇게 될 경우 Cleanup 실행 -> if (running === false) return; 실행 = timerId 생성 x
     */
