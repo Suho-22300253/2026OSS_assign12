@@ -19,6 +19,15 @@ export default function Lab3InputFocus() {
     inputRef.current.focus();
   };
 
+  const validate = () => {
+    if(inputRef.current.value.trim() === "" || inputRef.current.value.trim() === null){
+      alert("input value");
+      return;
+    }
+
+    alert("good input");
+  }
+
   return (
     <div>
       <p className="hint">TODO를 완성하면 Focus / Clear 버튼이 동작합니다.</p>
@@ -43,6 +52,9 @@ export default function Lab3InputFocus() {
         <button onClick={focusInput}>Focus</button>
         <button className="secondary" onClick={clearInput}>
           Clear
+        </button>
+        <button onClick={validate}>
+          Validate
         </button>
       </div>
     </div>
