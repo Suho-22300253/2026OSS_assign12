@@ -1,20 +1,14 @@
-# OSS Week 12 — React Hooks Playground (Student Starter)
+Project Structure: App.jsx와 주요 Lab 컴포넌트의 역할
+useEffect: Effect, Dependency Array 및 Cleanup의 동작 원리
+useRef: .current 속성과 useState의 차이
+Code Analysis: useEffect와 useRef 관련 주요 코드 각 1개(5~15줄)를 선택하여 동작 원리 설명
 
-## 실행 방법
-Node.js 20.19+ 또는 22.12+ 권장. 프로젝트 폴더에서 실행:
+README에 다음 질문의 답을 작성합니다.
 
-```bash
-npm install
-npm run dev
-```
-
-브라우저에 터미널의 Local URL을 열고 LAB 탭을 이동하세요. 제출 전 `npm run build`도 실행하세요.
-
-## 수행 방법
-1. `src/components/` 아래의 LAB 1~4 파일에 있는 `TODO`를 직접 완성합니다.
-2. `src/App.jsx`, `src/App.css`는 공통 화면이므로 가급적 수정하지 않습니다.
-3. 각 LAB의 동작 화면과 콘솔 결과를 기록합니다.
-4. 한 LAB에서 다른 LAB으로 탭을 전환하면 기존 컴포넌트가 언마운트됩니다. Cleanup 결과를 관찰합니다.
+useEffect의 Dependency Array가 필요한 이유는?
+Cleanup을 사용하지 않으면 어떤 문제가 발생할 수 있는가?
+useState와 useRef의 가장 중요한 차이는?
+LAB 2와 LAB 4의 Timer 관리 방식은 어떻게 다른가?
 
 
 ## 이해도 확인 질문
